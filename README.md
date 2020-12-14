@@ -9,7 +9,7 @@
 '''conda activate radcure-challenge'''
 
 ### Extract Hand-Engineered Radiomic Features:
-1. (https://pyradiomics.readthedocs.io/en/latest/)
+1. [Pyradiomics](https://pyradiomics.readthedocs.io/en/latest/)
 
 ## Using The Code:
 ### Update Data Paths:
@@ -21,5 +21,7 @@ Within 'radcurechallenge/run_logistic_fuzzy_open.py' please update the following
 
 ### To-Run:
 sbatch 'radcurechallenge/RUNME.sh'
+
 OR
+
 python 'run_logistic_fuzzy_open.py'
